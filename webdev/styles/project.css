@@ -1,0 +1,33 @@
+html {
+    font-size: 10px; 
+    font-family: 'Ubuntu', sans-serif;
+  }
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+  
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.t1 , .t1 th, .t1 td{
+    border: 1px solid rgb(136, 134, 131);
+    border-collapse: collapse;
+}
+
+.t2 , .t2 th, .t2 td{
+  border: 1px solid rgb(136, 134, 131);
+  border-collapse: collapse;
+}
+
+#p22 , #p23 , #p24 , #p32 , #p33, #p34 , #p42 , #p43 , #p44{
+  border: 2px solid rgb(0, 0, 0);
+}
+
+body {
+  background-color: rgb(183, 187, 189);
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Colour Tiles</title>
+    <link href="styles/project.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Colour Tiles</h1>
+    <p style="position: absolute; left: 0px; top:75px;">Bring this 3x3 grid in the middle of 5x5 grid</p>
+
+
+<table class="t1"; id="a1" ; style="width: 18% ; height: 32% ;position:absolute; left: 20px; top: 175px;  ">
+  <tr>
+    <td id="m11"></td>
+    <td id="m12"></td>
+    <td id="m13"></td>
+  </tr>
+  <tr>
+    <td id="m21"></td>
+    <td id="m22"></td>
+    <td id="m23"></td>
+  </tr>
+  <tr>
+    <td id="m31"></td>
+    <td id="m32"></td>
+    <td id="m33"></td>
+  </tr>
+</table>
+
+<button style="position: absolute; left: 50px;" ; id="b1">
+  Click to generatre 3x3 grid
+</button>
+
+<script src="scripts/3x3.js"></script>
+
+<button style="position: absolute; left: 103px; top: 400px;" ; id="b2">
+  Start/Reset
+</button>
+
+<p style="position:absolute;right :115px;top :0px; font-size: 50px;">Timer</p>
+
+<div style="position:absolute;right :100px;top :150px; font-size: 50px;" ; id="stopwatch">
+  00:00:00
+</div>
+
+<p style="position:absolute;right :90px;top :250px; font-size: 40px;">Number of moves</p>
+
+<div style="position:absolute;right :100px;top :400px; font-size: 50px;" ; id="sc">
+  0
+</div>
+
+<table class="t2"; id="a2" ; style="width: 27% ; height: 48% ;position:absolute; right: 480px; top: 175px; ">
+  <tr>
+    <td id="p11"></td>
+    <td id="p12"></td>
+    <td id="p13"></td>
+    <td id="p14"></td>
+    <td id="p15"></td>
+  </tr>
+  <tr>
+    <td id="p21"></td>
+    <td id="p22"></td>
+    <td id="p23"></td>
+    <td id="p24"></td>
+    <td id="p25"></td>
+  </tr>
+  <tr>
+    <td id="p31"></td>
+    <td id="p32"></td>
+    <td id="p33"></td>
+    <td id="p34"></td>
+    <td id="p35"></td>
+  </tr>
+  <tr>
+    <td id="p41"></td>
+    <td id="p42"></td>
+    <td id="p43"></td>
+    <td id="p44"></td>
+    <td id="p45"></td>
+  </tr>
+  <tr>
+    <td id="p51"></td>
+    <td id="p52"></td>
+    <td id="p53"></td>
+    <td id="p54"></td>
+    <td id="p55" ; style="background: white;"></td>
+  </tr>
+</table>
+
+<button style="position: absolute; left: 112px; top: 450px;" ; id="b3">
+  Submit
+</button>
+
+
+<script src="scripts/5x5.js"></script>
+
+
+  </body>
+</html>
